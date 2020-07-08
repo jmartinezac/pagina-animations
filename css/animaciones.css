@@ -1,0 +1,104 @@
+@keyframes animacion-rotacion {
+    0% {
+        transform: translateX(0px);
+        background-color: rgba(245, 50, 1, 0.164);
+        box-shadow: 2px 10px #fffb01;
+
+
+    }
+
+    10% {
+        transform: translateY(0px);
+        background-color: rgba(245, 50, 1, 0.164);
+        box-shadow: 2px 10px black;
+
+
+    }
+
+    50% {
+        box-shadow: 2px 10px black;
+        transform: translateY(2px);
+        background-color: #f4f800;
+        box-shadow: 2px 10px black;
+
+    }
+
+    60% {
+        box-shadow: 2px 10px black;
+        transform: translateY(-2px);
+        background-color: black;
+        box-shadow: 2px 10px #f4f800;
+
+
+    }
+
+    70% {
+        box-shadow: 2px 10px black;
+        transform: translateY(2px);
+        background-color: #f4f800;
+        box-shadow: 2px 10px black;
+
+    }
+
+    80% {
+        box-shadow: 2px 10px black;
+        transform: translateY(-2px);
+        background-color: black;
+        box-shadow: 2px 10px #f4f800;
+
+    }
+
+    100% {
+        box-shadow: 2px 10px black;
+        transform: translateY(2px);
+        background-color: #f4f800;
+        box-shadow: 2px 10px black;
+
+    }
+}
+
+@keyframes tittle {
+    0% {
+        color: #f4f800;
+    }
+
+    10% {
+        color: black;
+    }
+
+    20% {
+        color: #f4f800;
+    }
+
+    30% {
+        color: black;
+    }
+
+    40% {
+        color: #f4f800
+    }
+
+    50% {
+        color: black;
+    }
+
+    60% {
+        color: #f4f800
+    }
+
+    70% {
+        color: black;
+    }
+
+    80% {
+        color: #f4f800
+    }
+
+    90% {
+        color: black;
+    }
+
+    100% {
+        color: #f4f800
+    }
+}
